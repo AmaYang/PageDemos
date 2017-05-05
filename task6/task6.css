@@ -127,13 +127,13 @@ footer{
 .home{
     width: 3.5em;
     height: 5em;
-    background: url("/hom.png");
+    background: url("/hom.png") no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .middle{
     background-color: #5fc0cd;
-    background: url("mid.png") no-repeat;
+    background-image: url("mid.png");
+    background-repeat: no-repeat;
     background-size: cover;
     width: 5em;
     height: 5em;
