@@ -1,0 +1,175 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.p1{
+    font-size: 1.5rem;
+    color: #29b078;
+    padding: 0.5rem 0;
+}
+.picXS{
+    padding: 0.5rem 0.25rem 0;
+    float: right;
+}
+.jinshu-logo{
+    width: 86px;
+    height: 39px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 15%;
+    margin-bottom: 8px;
+}
+header{background-color: white;}
+.navbar-nav{
+    margin: 0;
+}
+.nav-css{
+    background-color: #29b078;
+}
+.buttons{
+    float: right;
+    margin-right: 2%;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.button1:hover{
+    border-bottom: 4px solid white;
+}
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{margin: 2rem 0 0 2rem;}
+.menu span{font-size: 1.5rem;font-weight: 700;}
+.menu a:link{font-size: 1.5rem;color: #29b078;}
+.link-list{
+    margin: 5rem 0 0 0.5rem;
+}
+.title{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid silver;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    background-color: white;
+}
+.links{
+    font-size: 1.5rem;
+    border: 1px solid silver;
+    border-top: none;
+    padding: 2rem 0 5rem;
+    background-color: white;
+}
+.links ul{
+    list-style: none;
+    width: 130px;
+    margin: 0 auto;
+}
+.links li{
+    margin: 2rem 0;
+}
+.dot{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #f9a372;
+    display: inline-block;
+}
+.links a{color: #29b078;}
+.links a:hover{color: #f9a372; text-decoration: none;}
+.main-content{
+    margin: 5rem 0 15rem 0.5rem;
+    background-color: white;
+}
+.company-profile{
+    margin: 0;
+    padding: 2rem 10%;
+    border: 1px solid silver;
+    position: relative;
+}
+@media all and (max-width: 425px){
+    .logo img{
+        position: absolute;
+        top: 1rem;
+        left: 4rem;
+    }
+    .states{
+        padding-top: 120px;
+    }
+}
+.logo{
+    display: table-cell;
+    vertical-align: middle;
+}
+.states{
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+.company-introduction p{
+    text-indent: 2em;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+.company-introduction{
+    border: 1px solid silver;
+    border-top: none;
+    padding: 5rem 10% 5rem;
+}
+
+.footer2{
+    background-color: #26a26f;
+    width: 100%;
+    height: 15rem;
+}
+.footer2 span{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer2-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15rem;
+}
+.footer2-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    padding-top: 2rem;
+    background-color: #26a26f;
+}
+.footer2-right{
+    padding-top: 1.5rem;
+    background-color: #26a26f;
+}
+.clear{clear: both}
+.span1{
+    display: inline-block;
+    padding-right: 0.5rem;
+    border-right: 2px solid white
+}
+.weixin{
+    float: right;
+    margin-left: 20rem;
+}
+.copyright{
+    width: 100%;
+    background-color: #26a26f;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    color: white;
+}

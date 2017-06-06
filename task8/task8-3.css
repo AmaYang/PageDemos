@@ -1,0 +1,165 @@
+html{font-size: 62.5%;}
+body{margin: 0;}
+.p1{
+    font-size: 1.5rem;
+    color: #29b078;
+    padding: 0.5rem 0;
+}
+.picXS{
+    padding: 0.5rem 0.25rem 0;
+    float: right;
+}
+.jinshu-logo{
+    width: 86px;
+    height: 39px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 15%;
+    margin-bottom: 8px;
+}
+.navbar-nav{
+    margin: 0;
+}
+.nav-css{
+    background-color: #29b078;
+}
+.buttons{
+    float: right;
+    margin-right: 2%;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.button1:hover{
+    border-bottom: 4px solid white;
+}
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin: 0 auto;
+}
+.main-title{
+    padding: 2rem 0;
+    border-bottom: 1px solid silver;
+    font-weight: 700; font-size: 1.5rem;
+}
+/*.main-title a:link{color: #29b078;}*/
+.main-title1{color: #29b078;}
+.directions{
+    padding: 2rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.directions span{font-size: 1.5rem; color: silver;}
+.directions ul{display: inline;}
+.direc{
+    display: inline;
+    padding-left: 5px;
+}
+/*.direc a:link{color: black; font-weight: 700;}*/
+.main-title2{color: black; font-weight: 700;}
+.direc a:hover{background-color: #29b078; text-decoration: none; color: #f0f0f0; font-weight: 700;}
+.headlines{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    border-bottom: 2px solid #f0f0f0;
+}
+.unit{
+    position: relative;
+}
+table{
+    width:300px;
+    margin: 2rem 0;
+}
+table, td{border: 1px solid #c0c0c0;}
+.avatar-square{
+    width: 100px;
+    height: 100px;
+}
+.wrap{
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+.td-row2{height: 3rem; padding: 0 5px;}
+.td-row2 img{margin: 0 0 2px 2px;}
+.number{color: #FF0000;}
+.grey-word{color: gray; font-size: 1.2rem;}
+.salarys{text-align: center}
+.salary{float: right;}
+.overstriking1{font-weight: 700;font-size: 1.5rem;}
+.overstriking2{font-weight: 700;font-size: 1.2rem;}
+.states{font-size: 1.2rem;}
+.ios{
+    opacity: 0;
+    background: rgba(0,0,0,0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 352px;
+    z-index: 1;
+}
+.ios div{color: #f0f0f0;}
+.title{
+    text-align: center;
+    margin: 3rem 0 2rem;
+}
+.content{
+    margin: 0 2rem;
+}
+.ios:hover{opacity: 1}
+
+
+.footer2{
+    background-color: #26a26f;
+    width: 100%;
+    height: 15rem;
+}
+
+.footer2 span{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer2-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15rem;
+}
+.footer2-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    padding-top: 2rem;
+    background-color: #26a26f;
+}
+.footer2-right{
+    padding-top: 1.5rem;
+    background-color: #26a26f;
+}
+.clear{clear: both}
+.span1{
+    display: inline-block;
+    padding-right: 0.5rem;
+    border-right: 2px solid white
+}
+.weixin{
+    float: right;
+    margin-left: 20rem;
+}
+.copyright{
+    width: 100%;
+    background-color: #26a26f;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    color: white;
+}

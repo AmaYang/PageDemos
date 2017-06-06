@@ -1,0 +1,240 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+}
+.p1{
+    font-size: 1.5rem;
+    color: #29b078;
+    padding: 0.5rem 0;
+}
+.picXS{
+    padding: 0.5rem 0.25rem 0;
+    float: right;
+}
+.jinshu-logo{
+    width: 86px;
+    height: 39px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 15%;
+    margin-bottom: 8px;
+}
+.navbar-nav{
+    margin: 0;
+}
+.nav-css{
+    background-color: #29b078;
+    vertical-align: middle;
+}
+.buttons{
+    float: right;
+    margin-right: 2%;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.button1:hover{
+    border-bottom: 4px solid white;
+}
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1{
+    padding-top: 10rem;
+    background-color: #fafafa;
+}
+.pic-main1{
+    width: 4.3rem;
+    height: 7rem;
+    margin: 0 auto;
+}
+.pic-main1-word{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.pic-main1-states{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    max-width: 25rem;
+    margin: 2rem auto;
+}
+.pic-main1-number{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    color: #29b078;
+}
+.pic-main1-word2{
+    font-size: 1.5rem;
+}
+.main1-number{
+    padding: 3rem 0 1rem 1rem;
+    border-left: 2px dashed silver;
+}
+.main2{
+    background-color: #fafafa;
+    padding-top: 8rem;
+}
+.main2-study{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.main2-number-states{
+    display: flex;
+    padding: 5rem 0;
+}
+.main2-number{
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    color: #29b078;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: 1px solid #f0f0f0;
+}
+.main2-states{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+.pic-arrow{
+    display: flex;
+    align-items: center;
+}
+.main3{
+    background-color: #fafafa;
+    padding: 6rem 0 8rem;
+}
+.pic-avatar{
+    background-color: white;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.pic-avatar-word1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3rem 0;
+}
+.pic-avatar-word2{
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.dot{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+.dot:hover{background-color: #29b078;}
+.main4{
+    background-color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.pic-logo{
+    background-color: white;
+    width: 22.7rem;
+    height: 15rem;
+    float: left;
+    border: 1px solid #f0f0f0;
+    margin-top: 5rem;
+}
+.pic-logo a{
+    display:table-cell;
+    width:22.7rem;
+    height: 15rem;
+    vertical-align:middle;
+}
+.footer1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3rem;
+}
+.ul1{
+    margin: 2rem 0 0;
+}
+.links{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 1rem 4.5rem 0 0;
+}
+.links a:link{color:silver;text-decoration:none;}
+.links a:visited{color:black;text-decoration:underline;}
+.links a:hover{color:black; font-weight:700;text-decoration:underline;}
+.footer2{
+    background-color: #26a26f;
+    width: 100%;
+    height: 15rem;
+}
+
+.footer2 span{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer2-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15rem;
+}
+.footer2-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    padding-top: 2rem;
+    background-color: #26a26f;
+}
+.footer2-right{
+    padding-top: 1.5rem;
+    background-color: #26a26f;
+}
+.clear{clear: both}
+.span1{
+    display: inline-block;
+    padding-right: 0.5rem;
+    border-right: 2px solid white
+}
+.weixin{
+    float: right;
+    margin-left: 20rem;
+}
+.copyright{
+    width: 100%;
+    background-color: #26a26f;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    color: white;
+}
