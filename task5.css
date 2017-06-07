@@ -37,7 +37,7 @@ header{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../taskimage/task5images/background.png");
+    background-image: url("../task-CSS/task5images/background.png");
     display: flex;
     align-items: center;
 }
@@ -46,7 +46,7 @@ header{
     margin-right: 10%;
     height: 10em;
     width: 10em;
-    background-image: url("../taskimage/task5images/avatar.png");
+    background-image: url("../task-CSS/task5images/avatar.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
