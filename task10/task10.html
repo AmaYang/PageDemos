@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="task10.css">
+    <title>task10</title>
+</head>
+<body>
+
+<header>
+    <div class="phone-number">客服热线：010-594-78634</div>
+    <div class="header-buts">
+        <input class="header-button" name="" type="button" value="登陆" >
+        <input class="header-button" name="" type="button" value="注册">
+    </div>
+    <div class="clear"></div>
+</header>
+
+<nav>
+    <input class="nav-button" name="home" type="button" value="品质保障">
+    <input class="nav-button" name="online-customization" type="button" value="标准箱">
+    <input class="nav-button" name="standard-box" type="button" value="在线定制">
+    <input class="nav-button" name="quality-guarantee" type="button" value="首页">
+    <div class="clear"></div>
+</nav>
+
+<div class="step-bar">
+    <ul>
+        <li class="step1">
+            <p>1</p>
+            <h4>1. 定制纸箱</h4>
+        </li>
+        <li>
+            <p>2</p>
+            <h4>2. 选择数量</h4>
+        </li>
+        <li>
+            <p>3</p>
+            <h4>3. 上传附件</h4>
+        </li>
+        <li>
+            <p>4</p>
+            <h4>4. 确认下单</h4>
+        </li>
+    </ul>
+</div>
+
+<form action="">
+    <div class="states1">请您按照以下步骤来定制您的纸箱</div>
+    <div class="steps"><img src="box.png"><span>选择箱型</span></div>
+    <div class="option-menu">
+        <div>
+            <label for="box1" class="boxtype">
+                <input name="box-types" id="box1" type="radio" value="" hidden>
+                <!--hidden就是用来清除默认选择框的-->
+                <span></span>
+                对门箱
+            </label>
+            <label for="box2" class="boxtype">
+                <input name="box-types" id="box2" type="radio" value="" hidden>
+                <span></span>
+                飞机盒
+            </label>
+            <label for="box3" class="boxtype">
+                <input name="box-types" id="box3" type="radio" value="" hidden>
+                <span></span>
+                天地盖
+            </label>
+        </div>
+        <div class="selection">
+            <select name="">
+                <option value="详情1">查看详情</option>
+                <option value="详情2">详情2</option>
+                <option value="详情3">详情3</option>
+                <option value="详情4">详情4</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="steps"><img src="Ruler.png">确定尺寸</div>
+    <div class="option-menu">
+        <div>
+            <div class="diameter1">
+                <label for="outer-diameter" class="diameter">
+                    <input id="outer-diameter" name="diameter1" type="radio" value="" hidden>
+                    <span></span>
+                    外径
+                </label>
+                <label for="length1" class="diameter">
+                    长<input class="size" id="length1" name="diameter1" type="text" value="">mm
+                </label>
+                <label for="breadth1" class="diameter">
+                    宽<input class="size" id="breadth1" name="diameter1" type="text" value="">mm
+                </label>
+                <label for="altitude1" class="diameter">
+                    高<input class="size" id="altitude1" name="diameter1" type="text" value="">mm
+                </label>
+            </div>
+            <div>
+                <label for="inner-diameter" class="diameter">
+                    <input id="inner-diameter" name="diameter2" type="radio" value="" hidden>
+                    <span></span>
+                    内径
+                </label>
+                <label for="length2" class="diameter">
+                    长<input class="size" id="length2" name="diameter2" type="text" value="">mm
+                </label>
+                <label for="breadth2" class="diameter">
+                    宽<input class="size" id="breadth2" name="diameter2" type="text" value="">mm
+                </label>
+                <label for="altitude2" class="diameter">
+                    高<input class="size" id="altitude2" name="diameter2" type="text" value="">mm
+                </label>
+            </div>
+        </div>
+        <div class="selection">
+            <select name="">
+                <option value="详情1">查看详情</option>
+                <option value="详情2">详情2</option>
+                <option value="详情3">详情3</option>
+                <option value="详情4">详情4</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="steps"><img src="Scissors.png">选择材质</div>
+    <div class="option-menu">
+        <div>
+            <label for="texture1" class="tissue">
+                <input id="texture1" name="material" type="radio" value="" hidden>
+                <span></span>
+                三层A瓦优质
+            </label>
+            <label for="texture2" class="tissue">
+                <input id="texture2" name="material" type="radio" value="" hidden>
+                <span></span>
+                三层A瓦优质
+            </label>
+            <label for="texture3" class="tissue">
+                <input id="texture3" name="material" type="radio" value="" hidden>
+                <span></span>
+                三层A瓦优质
+            </label>
+            <label for="texture4" class="tissue">
+                <input id="texture4" name="material" type="radio" value="" hidden>
+                <span></span>
+                三层A瓦优质
+            </label>
+            <label for="texture5" class="tissue">
+                <input id="texture5" name="material" type="radio" value="" hidden>
+                <span></span>
+                三层A瓦优质
+            </label>
+        </div>
+        <div class="selection">
+            <select name="">
+                <option value="详情1">查看详情</option>
+                <option value="详情2">详情2</option>
+                <option value="详情3">详情3</option>
+                <option value="详情4">详情4</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="button"><input class="next-step" type="submit" name="" value="下一步"></div>
+</form>
+
+<footer>
+    <div class="home">
+        <div class="ad">51包装网— 纸箱包装首选服务平台</div>
+        <div class="links">
+            <a href="#">关于我们</a> <a href="#">配送流程</a> <a href="#">联系我们</a><br>
+            <a href="#">下单指南</a> <a href="#">媒体介绍</a>
+        </div>
+        <div class="contaction">
+            <div>
+                <span>TEL：400-0000-000</span><br>
+                <span>企业QQ：123456789</span><br>
+                <span>微信号：XXXXXXX</span><br>
+            </div>
+            <img src="二维码.png">
+        </div>
+    </div>
+    <div class="copyright"><span>北京五一包装科技有限公司Copyright ©2015</span><span>51baozhuang.com015   All rights reserved.   京icp备99999999-1</span></div>
+</footer>
+
+
+
+</body>
+</html>
