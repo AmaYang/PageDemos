@@ -1,0 +1,67 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #29b078;
+$primaryColor2: #fafafa;
+$font-size1: 1.5rem;
+$font-size2: 2rem;
+@mixin display ($flex){
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer{
+  background-color: $primaryColor1;
+  overflow: hidden;
+  @media all and (max-width: 760px) {
+    .footer2-left{
+      width: 40%;
+    }
+    .footer2-middle{
+      width: 40%;
+    }
+    .footer2-right{
+      float: right;
+    }
+  }
+}
+.footer2-left{
+  width: 26%;
+  height: 12rem;
+  @include display(flex);
+  margin-left: 6%;
+  padding: 1rem 0;
+  font-size: $font-size1;
+  color: #fff;
+  float: left;
+  span{
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  .span1{
+    border-right: 1px solid #fff;
+  }
+}
+.footer2-middle{
+  @extend .footer2-left;
+  margin: 0;
+  padding-left: 2%;
+}
+.footer2-right{
+  @extend .footer2-left;
+  float: right;
+  margin: 0;
+  padding-left: 5%;
+}
+.copyright{
+  clear: both;
+  text-align: center;
+  font-size: $font-size1;
+  color: #fff;
+  padding: 0.5rem 0;
+  border-top: 1px solid #fff;
+}

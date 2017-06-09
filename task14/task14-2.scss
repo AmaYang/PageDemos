@@ -1,0 +1,110 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #29b078;
+$primaryColor2: #fafafa;
+$primaryColor3: #f9a372;
+$font-size1: 1.5rem;
+$font-size2: 2rem;
+.main{
+  background-color: $primaryColor2;
+  padding: 0 6%;
+  overflow: hidden;
+}
+.link-list{
+  margin: 5rem 0 0 0.5rem;
+  .title{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #c0c0c0;
+    font-size: $font-size2;
+    font-weight: 700;
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+  .links{
+    font-size: $font-size1;
+    border: 1px solid #c0c0c0;
+    border-top: none;
+    padding: 2rem 0 5rem;
+    background-color: #fff;
+    ul{
+      list-style: none;
+      width: 130px;
+      margin: 0 auto;
+    }
+    li{
+      margin: 2rem 0;
+      a{
+        color: $primaryColor1;
+        &:hover{
+          color: $primaryColor3; text-decoration: none;
+        }
+      }
+    }
+  }
+  .dot{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid $primaryColor3;
+    display: inline-block;
+  }
+}
+
+.main-content {
+  margin: 5rem 0 15rem 0.5rem;
+  background-color: #fff;
+}
+.company-profile{
+  margin: 0;
+  padding: 2rem 10%;
+  border: 1px solid #c0c0c0;
+  position: relative;
+  .logo {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .states {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: $font-size1;
+    line-height: 2rem;
+  }
+  @media all and (max-width: 425px) {
+    .logo {
+      img {
+        position: absolute;
+        top: 1rem;
+        left: 4rem;
+      }
+    }
+    .states{
+      padding-top: 120px;
+    }
+  }
+}
+.company-introduction {
+  border: 1px solid #c0c0c0;
+  border-top: none;
+  padding: 5rem 10% 5rem;
+  p {
+    text-indent: 2em;
+    line-height: 2rem;
+    font-size: $font-size1;
+    margin-bottom: 4rem;
+  }
+}
+@media all and (min-width: 768px) {
+  .link-list{
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+  }
+  .main-content{
+    display: inline-block;
+    margin-left: 1.5%;
+    width: 75%;
+  }
+}

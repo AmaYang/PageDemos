@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%; }
+
+.main {
+  background-color: #fafafa;
+  padding: 0 6%;
+  overflow: hidden; }
+
+.link-list {
+  margin: 5rem 0 0 0.5rem; }
+  .link-list .title {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #c0c0c0;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    background-color: #fff; }
+  .link-list .links {
+    font-size: 1.5rem;
+    border: 1px solid #c0c0c0;
+    border-top: none;
+    padding: 2rem 0 5rem;
+    background-color: #fff; }
+    .link-list .links ul {
+      list-style: none;
+      width: 130px;
+      margin: 0 auto; }
+    .link-list .links li {
+      margin: 2rem 0; }
+      .link-list .links li a {
+        color: #29b078; }
+        .link-list .links li a:hover {
+          color: #f9a372;
+          text-decoration: none; }
+  .link-list .dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #f9a372;
+    display: inline-block; }
+
+.main-content {
+  margin: 5rem 0 15rem 0.5rem;
+  background-color: #fff; }
+
+.company-profile {
+  margin: 0;
+  padding: 2rem 10%;
+  border: 1px solid #c0c0c0;
+  position: relative; }
+  .company-profile .logo {
+    display: table-cell;
+    vertical-align: middle; }
+  .company-profile .states {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  @media all and (max-width: 425px) {
+    .company-profile .logo img {
+      position: absolute;
+      top: 1rem;
+      left: 4rem; }
+    .company-profile .states {
+      padding-top: 120px; } }
+
+.company-introduction {
+  border: 1px solid #c0c0c0;
+  border-top: none;
+  padding: 5rem 10% 5rem; }
+  .company-introduction p {
+    text-indent: 2em;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem; }
+
+@media all and (min-width: 768px) {
+  .link-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%; }
+
+  .main-content {
+    display: inline-block;
+    margin-left: 1.5%;
+    width: 75%; } }
+
+/*# sourceMappingURL=task14-2.css.map */

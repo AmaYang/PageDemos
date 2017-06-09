@@ -1,0 +1,85 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #5fc0cd;
+$primaryColor2: #fff;
+$primaryColor3: #eff0f4;
+$primaryColor4: #e3e7e9;
+$primaryColor5: #000;
+$linkColor1: #fff;
+$linkColor2: #5fc0cd;
+$font-size1: 2rem;
+$font-size2: 1.5rem;
+@mixin display ($flex){
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+body{
+  background-color: $primaryColor3;
+  margin: 0;
+}
+header{
+  background-color: $primaryColor1;
+  font-size: $font-size1;
+  color: $primaryColor2;
+  @include display (flex);
+  justify-content: space-around;
+  a{
+    text-decoration: none;
+    color: $linkColor1;
+    &:hover{
+      color: darken($linkColor1,20%);
+    }
+  }
+  span{
+    padding: 1rem 0;
+  }
+}
+.phone-number{
+  margin: 1rem 0;
+  padding: 1rem 0;
+  background-color: $primaryColor2;
+  @include display (flex);
+  img{
+    padding: 0 1.5rem;
+  }
+  input{
+    font-size: $font-size1;
+    color: $primaryColor5;
+    padding-left: 1.5rem;
+    outline: none;
+    border: none;
+    border-left: 1px solid $primaryColor4;
+    width: 90%;
+  }
+}
+.password{
+  @extend .phone-number
+}
+.log-in{
+  margin-top: 4rem;
+  input{
+    width: 100%;
+    background-color: $primaryColor1;
+    font-size: $font-size1;
+    color: $primaryColor2;
+    padding: 1rem 0;
+    border: none;
+  }
+}
+footer{
+  margin: 1.5rem 1rem 0 0;
+  @include display (flex);
+  justify-content: flex-end;
+  font-size: $font-size2;
+  a{
+    text-decoration: none;
+    color: $linkColor2;
+    &:hover{
+      color: darken($linkColor2,20%);
+    }
+  }
+}

@@ -1,0 +1,118 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #29b078;
+$primaryColor2: #fafafa;
+$primaryColor3: #a9a9a9;
+$font-size1: 1.5rem;
+$font-size2: 1.2rem;
+.main{
+  background-color: $primaryColor2;
+}
+.headlines{
+  font-size: $font-size1;
+  font-weight: 700;
+}
+table{
+  background-color: #fff;
+  width: 289px;
+  height: 352px;
+  border: 1px solid #c0c0c0;
+  td{
+    border: 1px solid #c0c0c0;
+  }
+  .wrap{
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    img{
+      width: 100px;
+      height: 100px;
+    }
+    .p1{
+      font-weight: 700;
+      font-size: $font-size1;
+      padding: 1rem 0;
+    }
+    .p2{
+      font-size: $font-size2;
+      color: #000;
+    }
+  }
+  .td-row2{
+    height: 3rem;
+    padding: 0 5px;
+    vertical-align: middle;
+    img{
+      margin: 0 .5rem;
+    }
+    span{
+      display: inline-block;
+      margin: 2px 0 0 0;
+    }
+    .salary{
+      float: right;
+    }
+  }
+  .salaries{
+    text-align: center;
+    width: 115px;
+  }
+  .p2{
+    font-size: $font-size2;
+  }
+  .p3{
+    font-weight: 700;
+    font-size: $font-size2;
+  }
+  .grey-word{
+    color: $primaryColor3;
+    font-size: $font-size2;
+  }
+  .number{
+    color: #FF0000;
+  }
+}
+.unit-row{
+  padding: 2rem 6%;
+  @media all and (min-width:1024px){
+    .unit{
+      display: inline-block;
+      margin: 1% 0;
+    }
+    .unit-mid{
+      margin: 1% 15.5%;
+    }
+  }
+  @media all and (max-width:1024px){
+    .unit{
+      display: inline-block;
+      margin: 1% 0.5%;
+    }
+  }
+}
+.unit{
+  position: relative;
+  .ios {
+    opacity: 0;
+    background: rgba(0, 0, 0, .75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 289px;
+    height: 352px;
+    z-index: 1;
+    &:hover {
+      opacity: 1
+    }
+  }
+  .title{
+    text-align: center;
+    margin: 3rem 0 2rem;
+    color: #f0f0f0;
+  }
+  .content{
+    margin: 0 2rem;
+    color: #f0f0f0;
+  }
+}

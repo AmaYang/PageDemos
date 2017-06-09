@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%; }
+
+.main {
+  padding: 10rem 6% 0;
+  background-color: #fafafa;
+  text-align: center; }
+
+.unit1 {
+  width: 30rem;
+  height: 20rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto; }
+  .unit1 .pic {
+    width: 4.4rem;
+    height: 7rem;
+    margin: 1rem auto; }
+  .unit1 .word {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center; }
+  .unit1 .states {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    max-width: 25rem;
+    margin: 2rem auto;
+    text-align: left; }
+  .unit1 .number {
+    font-size: 1.5rem;
+    padding: 3rem 0 1rem 1rem;
+    border-left: 2px dashed #c0c0c0;
+    height: 25%; }
+    .unit1 .number div {
+      margin: 1rem 0; }
+    .unit1 .number span {
+      font-weight: 700;
+      padding-left: 1rem;
+      color: #29b078; }
+
+.line {
+  padding: 1rem 0;
+  text-align: center; }
+  .line .expound {
+    font-size: 1.5rem;
+    font-weight: 700; }
+  .line a {
+    color: #c0c0c0;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0.5rem 4rem; }
+    .line a:hover {
+      color: #29b078; }
+
+.unit2 {
+  display: inline-block;
+  width: 30rem;
+  height: 15rem;
+  position: relative; }
+  .unit2 .number {
+    display: inline-block;
+    padding: 1.5rem 1.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #f0f0f0;
+    vertical-align: middle;
+    color: #29b078;
+    font-weight: 700;
+    font-size: 1.5rem; }
+  .unit2 .states {
+    display: inline-block;
+    width: 50%;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+    vertical-align: middle; }
+  .unit2 img {
+    vertical-align: middle; }
+
+.unit3 {
+  background-color: #fff;
+  padding: 2rem;
+  display: inline-block;
+  width: 23rem;
+  margin: 5rem 1.5rem 0; }
+  .unit3 .avatar-word1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3rem 0; }
+  .unit3 .avatar-word2 {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: left; }
+
+.dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  margin: 0 .2rem;
+  display: inline-block; }
+  .dot:hover {
+    background-color: #29b078; }
+
+.pic-logo {
+  background-color: white;
+  width: 22rem;
+  height: 15rem;
+  display: inline-block;
+  border: 1px solid #f0f0f0;
+  margin: 2rem 1%; }
+  .pic-logo a {
+    display: table-cell;
+    width: 22.7rem;
+    height: 15rem;
+    vertical-align: middle; }
+
+.links {
+  padding-top: 1rem; }
+
+@media all and (width: 1024px) {
+  .unit1 {
+    width: 22rem;
+    height: 20rem; }
+
+  .unit2 {
+    width: 22rem; } }
+
+/*# sourceMappingURL=task14-1.css.map */

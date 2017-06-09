@@ -1,0 +1,53 @@
+html {
+  font-size: 62.5%; }
+
+footer {
+  background-color: #29b078;
+  overflow: hidden; }
+  @media all and (max-width: 760px) {
+    footer .footer2-left, footer .footer2-middle, footer .footer2-right {
+      width: 40%; }
+    footer .footer2-middle {
+      width: 40%; }
+    footer .footer2-right {
+      float: right; } }
+
+.footer2-left, .footer2-middle, .footer2-right {
+  width: 26%;
+  height: 12rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 6%;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  float: left; }
+  .footer2-left span, .footer2-middle span, .footer2-right span {
+    display: inline-block;
+    padding: 0.5rem; }
+  .footer2-left .span1, .footer2-middle .span1, .footer2-right .span1 {
+    border-right: 1px solid #fff; }
+
+.footer2-middle {
+  margin: 0;
+  padding-left: 2%; }
+
+.footer2-right {
+  float: right;
+  margin: 0;
+  padding-left: 5%; }
+
+.copyright {
+  clear: both;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.5rem 0;
+  border-top: 1px solid #fff; }
+
+/*# sourceMappingURL=task14footer.css.map */

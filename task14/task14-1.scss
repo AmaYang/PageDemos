@@ -1,0 +1,157 @@
+html {
+  font-size: 62.5%;
+}
+$primaryColor1: #29b078;
+$primaryColor2: #fafafa;
+$font-size1: 1.5rem;
+$font-size2: 1.8rem;
+@mixin display ($flex) {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.main {
+  padding: 10rem 6% 0;
+  background-color: $primaryColor2;
+  text-align: center;
+}
+.unit1 {
+  width: 30rem;
+  height: 20rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+  .pic {
+    width: 4.4rem;
+    height: 7rem;
+    margin: 1rem auto;
+  }
+  .word {
+    font-size: $font-size1;
+    font-weight: 700;
+    text-align: center;
+  }
+  .states {
+    font-size: $font-size1;
+    padding: 2rem 0;
+    max-width: 25rem;
+    margin: 2rem auto;
+    text-align: left;
+  }
+  .number {
+    font-size: $font-size1;
+    padding: 3rem 0 1rem 1rem;
+    border-left: 2px dashed #c0c0c0;
+    height: 25%;
+    div {
+      margin: 1rem 0;
+    }
+    span {
+      font-weight: 700;
+      padding-left: 1rem;
+      color: $primaryColor1;
+    }
+  }
+}
+.line {
+  padding: 1rem 0;
+  text-align: center;
+  .expound {
+    font-size: $font-size1;
+    font-weight: 700;
+  }
+  a {
+    color: #c0c0c0;
+    display: inline-block;
+    font-size: $font-size1;
+    margin: 0.5rem 4rem;
+    &:hover {
+      color: $primaryColor1;
+    }
+  }
+}
+.unit2 {
+  display: inline-block;
+  width: 30rem;
+  height: 15rem;
+  position: relative;
+  .number {
+    display: inline-block;
+    padding: 1.5rem 1.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #f0f0f0;
+    vertical-align: middle;
+    color: $primaryColor1;
+    font-weight: 700;
+    font-size: $font-size1;
+  }
+  .states {
+    display: inline-block;
+    width: 50%;
+    padding-left: 0.5rem;
+    font-size: $font-size1;
+    text-align: left;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+  }
+}
+.unit3 {
+  background-color: #fff;
+  padding: 2rem;
+  display: inline-block;
+  width: 23rem;
+  margin: 5rem 1.5rem 0;
+  .avatar-word1 {
+    font-size: $font-size2;
+    font-weight: 700;
+    padding: 3rem 0;
+  }
+  .avatar-word2 {
+    font-size: $font-size1;
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+}
+.dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  margin: 0 .2rem;
+  display: inline-block;
+  &:hover {
+    background-color: $primaryColor1;
+  }
+}
+.pic-logo {
+  background-color: white;
+  width: 22rem;
+  height: 15rem;
+  display: inline-block;
+  border: 1px solid #f0f0f0;
+  margin: 2rem 1%;
+  a {
+    display:table-cell;
+    width:22.7rem;
+    height: 15rem;
+    vertical-align:middle;
+  }
+}
+.links{
+  padding-top: 1rem;
+}
+@media all and (width: 1024px) {
+  .unit1 {
+    width: 22rem;
+    height: 20rem;
+  }
+  .unit2 {
+    width: 22rem;
+  }
+}
